@@ -1,16 +1,22 @@
 
 :root {
---bgdark: #232836;
+/* --bgdark: #232836;
 --bglight: #282e3f;
 --bglighter: #2f364a;
+*/
 
---fgdark: #8686a4;
---fglight: #ccccfa;
+--bgdark: #232323;
+--bglight: #292929;
+--bglighter: #343434;
 
---accent: #d39ceb;
+--fgdark: #7f7f7f;
+--fglight: #a9a9a9;
+
+/* --accent: #d39ceb;
 --border: #2f364a;
 --disabled: #696969;
 --hover: #ffffff;
+*/
 }
 
 * {
