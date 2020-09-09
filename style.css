@@ -46,7 +46,7 @@ main {
 	display: flex;
 	overflow-y: auto;
 	flex-flow: row wrap;
-	width: 380px;
+	width: 580px;
 	position: relative;
 	top: -10px;
 }
