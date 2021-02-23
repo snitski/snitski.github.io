@@ -80,6 +80,7 @@ a:visited, a {
 	height:100%;
 	width:200px;
 	background-color:var(--bglighter);
+	z-index:1;
 }
 
 #slinks {
