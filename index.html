@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html onclick="hideMenu()">
+<html>
 
 <head>
-	<!-- <meta name="viewport" content="width=device-width,initial-width=1" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
 	<link rel="stylesheet" href="style.css" />
 	<title>Startpage</title>
 	<script src="script.js"></script>
 </head>
 
 <body>
-	<div class=top>
-		<section>
-			<a href="https://youtube.com/" target="_top"><span class="links">youtube</span></a>
-			<a href="https://www.reddit.com/r/popular/" target="_top"><span class="links">reddit</span></a>
-			<a href="https://www.instagram.com/" target="_top"><span class="links">instagram</span></a>
-			<a href="https://twitter.com/home" target="_top"><span class="links">twitter</span></a>
-			<a href="https://steamcommunity.com/id/ajinoxx/" target="_top"><span class="links">steam</span></a>
-		</section>
-		<section>
-			<a href="https://mail.google.com/mail/u/0/#inbox" target="_top"><span class="links">gmail</span></a>
-			<a href="https://drive.google.com/drive/u/0/my-drive" target="_top"><span class="links">drive</span></a>
-			<a href="https://mail.google.com/mail/u/1/#inbox" target="_top"><span class="links">lufsd gmail</span></a>
-			<a href="https://drive.google.com/drive/u/1/my-drive" target="_top"><span class="links">lufsd drive</span></a>
-			<a href="https://classroom.google.com/u/1/h" target="_top"><span class="links">classroom</span></a>
-		</section>
-		<section>
-			<a href="https://studentportal.eschooldata.com/Login.aspx?ReturnUrl=%2fLindenhurst" target="_top"><span class="links">portal</span></a>
-			<a href="https://www1.eboard.com/eboard/servlet/BoardServlet?&ACTION=TAB_SHOW&ACTION_ON=TAB&OBJECT_ID=664612&SITE_NAME=lindenhurstschools&BOARD_NAME=jehrhardt&TAB_ID=664612&SESSION_ID=537aguxak3re8984" target="_top"><span class="links">calc eboard</span></a>
-			<a href="https://apstudents.collegeboard.org/" target="_top"><span class="links">ap central</span></a>
-			<a href="https://portal.mypearson.com/course-home#/tab/active" target="_top"><span class="links">masterphysics</span></a>
-			<a href="https://www.albert.io/classes" target="_top"><span class="links">albert</span></a>
-		</section>
-		<section>
-			<a href="https://ghabibi.github.io/apcsp/" target="_top"><span class="links">ghabibi</span></a>
-			<a href="https://ide.cs50.io/" target="_top"><span class="links">cs50 ide</span></a>
-			<a href="https://github.com/" target="_top"><span class="links">github</span></a>
-			<a href="https://dashboard.heroku.com/apps" target="_top"><span class="links">heroku</span></a>
-			<a href="https://discordpy.readthedocs.io/en/latest/" target="_top"><span class="links">discordpy</span></a>
-		</section>
+	<div class="side" style="display:none" id=sidebar>
+		<div id=slinks>
+			<span style="font-size:28px;display:block;"><b>meet links</b></span>
+			<a href="https://meet.google.com/lookup/daobczblpw?authuser=1&hs=179" class="links">calc</a>
+			<a href="https://meet.google.com/lookup/cc66o6z2mh?authuser=1&hs=179" class="links">macro</a>
+			<a href="https://meet.google.com/lookup/ecxdv2moi4?authuser=1&hs=179" class="links">comp sci</a>
+			<a href="https://meet.google.com/lookup/bgjlyrop73?authuser=1&hs=179" class="links">german</a>
+			<a href="https://meet.google.com/lookup/bicbrm7d6s?authuser=1&hs=179" class="links">physics</a>
+			<a href="https://meet.google.com/lookup/b4cpa7qhix?authuser=1&hs=179" class="links">english</a>
+			<!-- <br>
+			<span style="font-size:28px;display:block;"><b>portal links</b></span>
+			<a href="https://cas.cc.binghamton.edu/cas/login?service=https%3a%2f%2fconnect.binghamton.edu%2fmanage%2flogin%3fr%3dhttps%253a%252f%252fconnect.binghamton.edu%252fapply%252fstatus%26realm%3d" class="links">binghamton</a>
+			<a href="https://www.bu.edu/admissions/mybu/" class="links">boston uni</a>
+			<a href="https://admission.enrollment.cmu.edu/pages/where-am-i-in-the-process" class="links">carnegie</a>
+			<a href="https://engage.admissions.cornell.edu/account/login?r=https%3a%2f%2fengage.admissions.cornell.edu%2fapply%2fstatus" class="links">cornell</a>
+			<a href="https://apply.college.harvard.edu/account/login?r=https%3a%2f%2fapply.college.harvard.edu%2fapply%2fstatus" class="links">harvard</a>
+			<a href="https://login.hofstra.edu/cas-web/login?service=https%3A%2F%2Fmy.hofstra.edu%2Fc%2Fportal%2Flogin" class="links">hofstra</a> -->
+		</div>
 	</div>
-	<!-- <div class=bottom>
-		<section id=btn onclick="showMenu('meets')">
-			meets
-		</section>
-		<section id=btn onclick="showMenu('portals')">
-			portals
-		</section>
-	</div> -->
+	<main>
+		<div class=top>
+			<section>
+				<a href="https://youtube.com/" target="_top"><span class="links">youtube</span></a>
+				<a href="https://www.reddit.com/r/popular/" target="_top"><span class="links">reddit</span></a>
+				<a href="https://www.instagram.com/" target="_top"><span class="links">instagram</span></a>
+				<a href="https://twitter.com/home" target="_top"><span class="links">twitter</span></a>
+				<a href="https://steamcommunity.com/id/ajinoxx/" target="_top"><span class="links">steam</span></a>
+			</section>
+			<section>
+				<a href="https://mail.google.com/mail/u/0/#inbox" target="_top"><span class="links">gmail</span></a>
+				<a href="https://drive.google.com/drive/u/0/my-drive" target="_top"><span class="links">drive</span></a>
+				<a href="https://mail.google.com/mail/u/1/#inbox" target="_top"><span class="links">lufsd gmail</span></a>
+				<a href="https://drive.google.com/drive/u/1/my-drive" target="_top"><span class="links">lufsd drive</span></a>
+				<a href="https://classroom.google.com/u/1/h" target="_top"><span class="links">classroom</span></a>
+			</section>
+			<section>
+				<a href="https://studentportal.eschooldata.com/Login.aspx?ReturnUrl=%2fLindenhurst" target="_top"><span class="links">portal</span></a>
+				<a href="https://www1.eboard.com/eboard/servlet/BoardServlet?&ACTION=TAB_SHOW&ACTION_ON=TAB&OBJECT_ID=664612&SITE_NAME=lindenhurstschools&BOARD_NAME=jehrhardt&TAB_ID=664612&SESSION_ID=537aguxak3re8984" target="_top"><span class="links">calc eboard</span></a>
+				<a href="https://apstudents.collegeboard.org/" target="_top"><span class="links">ap central</span></a>
+				<a href="https://portal.mypearson.com/course-home#/tab/active" target="_top"><span class="links">masterphysics</span></a>
+				<a href="https://www.albert.io/classes" target="_top"><span class="links">albert</span></a>
+			</section>
+			<section>
+				<a href="https://ghabibi.github.io/apcsp/" target="_top"><span class="links">ghabibi</span></a>
+				<a href="https://ide.cs50.io/" target="_top"><span class="links">cs50 ide</span></a>
+				<a href="https://github.com/" target="_top"><span class="links">github</span></a>
+				<a href="https://dashboard.heroku.com/apps" target="_top"><span class="links">heroku</span></a>
+				<a href="https://discordpy.readthedocs.io/en/latest/" target="_top"><span class="links">discordpy</span></a>
+			</section>
+		</div>
+		<div class=bottom>
+			<section id=btn onclick="toggleMenu()">
+				meets
+			</section>
+			<section id=btn onclick="">
+				portals
+			</section>
+		</div>
+	</main>
 </body>
-	<!-- <ul id=periods>
-		<li><a href="https://meet.google.com/lookup/daobczblpw?authuser=1&hs=179" >calc</a></li>
-		<li><a href="https://meet.google.com/lookup/cc66o6z2mh?authuser=1&hs=179" >macro</a></li>
-		<li><a href="https://meet.google.com/lookup/ecxdv2moi4?authuser=1&hs=179" >comp sci</a></li>
-		<li><a href="https://meet.google.com/lookup/bgjlyrop73?authuser=1&hs=179" >german</a></li>
-		<li><a href="https://meet.google.com/lookup/bicbrm7d6s?authuser=1&hs=179" >physics</a></li>
-		<li><a href="https://meet.google.com/lookup/b4cpa7qhix?authuser=1&hs=179" >english</a></li>
-	</ul> -->
 </html>
 	

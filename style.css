@@ -12,7 +12,7 @@ html {
 	color: var(--fgdark);
 }
 
-body {
+main {
 	position:absolute;
 	top: 50%;
 	left: 50%;
@@ -72,19 +72,29 @@ a:visited, a {
 	display:inline-block
 }
 
-#periods {
+.side {
+	position: absolute;
+	margin:0;
+	top:0;
+	left:0;
+	height:100%;
+	width:200px;
+	background-color:var(--bglighter);
+}
+
+#slinks {
 	display:block;
-	position:fixed;
-
-	top: 0;
+	position:absolute;
+	
 	left: 0;
-
-	background:var(--bglighter);
+	top: 37%;
+	/* transform:translate(0%, -50%); */
 
 	list-style-type: none;
 	margin:0;
-	padding:5px 10px 5px 0px;
-	/* padding:0px; */
-	border-radius: 4px;
-	width:100px;
+	padding:5px 0px 5px 10px;
+}
+
+li {
+	padding: 0px 0px 10px 0px;
 }
