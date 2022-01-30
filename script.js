@@ -1,7 +1,6 @@
 function toggleMenu()
 {
-    if (document.getElementById("sidebar").style.display == "none")
-        document.getElementById("sidebar").style.display = "block";
-    else
-        document.getElementById("sidebar").style.display = "none";
+    const sidebar = document.getElementById("sidebar");
+
+    sidebar.setAttribute('class', sidebar.classList.contains('slide-in') ? 'slide-out' : 'slide-in')
 }

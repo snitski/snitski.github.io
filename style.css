@@ -82,24 +82,54 @@ a:visited, a {
 									supported by Chrome and Opera */
   }
 
-.side {
+#sidebar {
 	position: absolute;
 	margin:0;
 	top:0;
-	left:0;
 	height:100%;
 	width:200px;
 	background-color:var(--bglighter);
 	z-index:1;
+
+	transform: translateX(-105%);
+	-webkit-transform: translateX(-105%);
 }
 
-#slinks {
+.slide-in {
+	animation: slide-in 0.5s forwards;
+	-webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+	animation: slide-out 0.5s forwards;
+	-webkit-animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+    100% { transform: translateX(-5%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(-5%); }
+}
+    
+@keyframes slide-out {
+    0% { transform: translateX(-5%); }
+    100% { transform: translateX(-105%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(-5%); }
+    100% { -webkit-transform: translateX(-105%); }
+}
+
+.links-side {
 	display:block;
 	position:absolute;
 	
-	left: 0;
-	top: 37%;
-	/* transform:translate(0%, -50%); */
+	left: 5%;
+	top: 33%;
+	/* transform:translate(0%, 250%); */
 
 	list-style-type: none;
 	margin:0;
