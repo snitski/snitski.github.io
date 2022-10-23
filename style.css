@@ -88,20 +88,25 @@ a:hover {
 
 #sidebar {
 	position: absolute;
-	top: 0;
 	transform: translateX(-110%);
 	-webkit-transform: translateX(-110%);
 
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	background-color: var(--bg-light);
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
 	height: 100vh;
 	width: 200px;
-	padding-left: 15px;
+}
+
+#sidebar-container {
+	display: flex;
+	flex-direction: column;
+	padding: 18px;
+	width: 10em;
+	background-color: var(--bg-light);
 	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.13);
-	border-radius: 0px 5px 5px 0px;
+	border-radius: 5px;
 }
 
 .sidebar-link {
@@ -110,7 +115,8 @@ a:hover {
 }
 
 .sidebar-header {
-	margin: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 5px;
+	font-weight: normal;
 }
 
 /* Animation */
@@ -125,19 +131,19 @@ a:hover {
 }
 
 @keyframes slide-in {
-    100% { transform: translateX(0%); }
+    100% { transform: translateX(5%); }
 }
 
 @-webkit-keyframes slide-in {
-    100% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(5%); }
 }
     
 @keyframes slide-out {
-    0% { transform: translateX(0%); }
+    0% { transform: translateX(5%); }
     100% { transform: translateX(-110%); }
 }
 
 @-webkit-keyframes slide-out {
-    0% { -webkit-transform: translateX(0%); }
+    0% { -webkit-transform: translateX(5%); }
     100% { -webkit-transform: translateX(-110%); }
 }
