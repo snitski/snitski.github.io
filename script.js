@@ -15,14 +15,14 @@
 
 const quicklinks = new Map([
     ['Y', "https://www.youtube.com"],
-    ['M', "https://messages.google.com/web/conversations"],
-    ['T', "https://web.telegram.org/z/"],
+    ['S', "https://web.stremio.com/"],
+    ['N', "https://news.ycombinator.com/"],
+
     ['G', "https://mail.google.com/mail/u/0/#inbox"],
-    ['D', "https://drive.google.com/drive/u/0/my-drive"],
-    ['C', "https://calendar.google.com/calendar?authuser=alexander.snit@stonybrook.edu"],
-    ['S', "https://prod.ps.stonybrook.edu/psp/csprods/?cmd=login"],
-    ['B', "https://mycourses.stonybrook.edu/d2l/home"],
-    ['P', "https://piazza.com/"]
+    ['F', "https://fastmail.com/mail/Inbox/"],
+    ['T', "https://tasks.google.com/u/0"],
+
+    ['C', "https://calendar.google.com/calendar/u/0"],
 ]);
 
 
